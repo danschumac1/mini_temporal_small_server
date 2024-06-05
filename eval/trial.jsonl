@@ -1,0 +1,44 @@
+nohup: ignoring input
+2024-05-29 21:56:41.613150: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-05-29 21:56:41.681794: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-05-29 21:56:41.681867: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-05-29 21:56:41.683313: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-05-29 21:56:41.692374: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-05-29 21:56:41.692628: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-05-29 21:56:42.781711: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+/home/dan/DeepLearning/mini_temporal/eval/eval_nit.py:79: MarkupResemblesLocatorWarning: The input looks more like a filename than markup. You may want to open this file and pass the filehandle into Beautiful Soup.
+  soup = BeautifulSoup(text, "lxml")
+2024-05-29 21:56:44.112571: W tensorflow/core/common_runtime/gpu/gpu_device.cc:2256] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2024-05-29 21:56:44.193093: W external/local_tsl/tsl/platform/cloud/google_auth_provider.cc:184] All attempts to get a Google authentication bearer token failed, returning an empty token. Retrieving token from files failed with "NOT_FOUND: Could not locate the credentials file.". Retrieving token from GCE failed with "FAILED_PRECONDITION: Error executing an HTTP request: libcurl code 6 meaning 'Couldn't resolve host name', error details: Could not resolve host: metadata.google.internal".
+2024-05-29 21:56:49.517028: I external/local_xla/xla/service/service.cc:168] XLA service 0x16aaa330 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2024-05-29 21:56:49.517092: I external/local_xla/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2024-05-29 21:56:50.223763: I tensorflow/compiler/mlir/tensorflow/utils/dump_mlir_util.cc:269] disabling MLIR crash reproducer, set env var `MLIR_CRASH_REPRODUCER_DIRECTORY` to enable.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1717037816.460078    2529 device_compiler.h:186] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
+2024-05-29 21:56:56.473895: E external/local_xla/xla/stream_executor/stream_executor_internal.h:177] SetPriority unimplemented for this stream.
+Traceback (most recent call last):
+  File "/home/dan/DeepLearning/mini_temporal/eval/eval_nit.py", line 333, in <module>
+    raw_outputs = bem(input_data)
+  File "/home/dan/miniconda3/envs/BEM/lib/python3.9/site-packages/tensorflow/python/saved_model/load.py", line 816, in _call_attribute
+    return instance.__call__(*args, **kwargs)
+  File "/home/dan/miniconda3/envs/BEM/lib/python3.9/site-packages/tensorflow/python/util/traceback_utils.py", line 150, in error_handler
+    return fn(*args, **kwargs)
+  File "/home/dan/miniconda3/envs/BEM/lib/python3.9/site-packages/tensorflow/python/eager/polymorphic_function/polymorphic_function.py", line 832, in __call__
+    result = self._call(*args, **kwds)
+  File "/home/dan/miniconda3/envs/BEM/lib/python3.9/site-packages/tensorflow/python/eager/polymorphic_function/polymorphic_function.py", line 877, in _call
+    results = tracing_compilation.call_function(
+  File "/home/dan/miniconda3/envs/BEM/lib/python3.9/site-packages/tensorflow/python/eager/polymorphic_function/tracing_compilation.py", line 139, in call_function
+    return function._call_flat(  # pylint: disable=protected-access
+  File "/home/dan/miniconda3/envs/BEM/lib/python3.9/site-packages/tensorflow/python/eager/polymorphic_function/concrete_function.py", line 1323, in _call_flat
+    return self._inference_function.call_preflattened(args)
+  File "/home/dan/miniconda3/envs/BEM/lib/python3.9/site-packages/tensorflow/python/eager/polymorphic_function/atomic_function.py", line 216, in call_preflattened
+    flat_outputs = self.call_flat(*args)
+  File "/home/dan/miniconda3/envs/BEM/lib/python3.9/site-packages/tensorflow/python/eager/polymorphic_function/atomic_function.py", line 251, in call_flat
+    outputs = self._bound_context.call_function(
+  File "/home/dan/miniconda3/envs/BEM/lib/python3.9/site-packages/tensorflow/python/eager/context.py", line 1486, in call_function
+    outputs = execute.execute(
+  File "/home/dan/miniconda3/envs/BEM/lib/python3.9/site-packages/tensorflow/python/eager/execute.py", line 53, in quick_execute
+    tensors = pywrap_tfe.TFE_Py_Execute(ctx._handle, device_name, op_name,
+KeyboardInterrupt

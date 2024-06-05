@@ -1,0 +1,2 @@
+{"NAME": "/home/dan/DeepLearning/mini_temporal/generations/mixed/TQE_gemma-1_1-2b-it_mixed_context_trained_mixed_context_evaluated.jsonl", "BEM": 0.6185142480333646, "F1": 0.2742857142857143, "ACC": 0.52}
+{"NAME": "/home/dan/DeepLearning/mini_temporal/generations/mixed/TQE_gemma-2b_mixed_context_trained_mixed_context_evaluated.jsonl", "BEM": 0.6015736442307631, "F1": 0.4205185185185187, "ACC": 0.56}

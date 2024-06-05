@@ -1,0 +1,637 @@
+Generation started at Thu May 30 13:28:32 CDT 2024
+Found 32 prediction files
+Processing Actual: /home/dan/DeepLearning/mini_temporal/clean_for_fatemeh/new_data/test.jsonl, Prediction: /home/dan/DeepLearning/mini_temporal/generations/TQE_IT/gemma-1_1-7b-it/no_context_trained/random_context_evaluated/TQE_gemma-1_1-7b-it_no_context_trained_random_context_evaluated.jsonl
+2024-05-30 13:28:33.888692: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-05-30 13:28:33.952592: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-05-30 13:28:33.952723: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-05-30 13:28:33.955321: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-05-30 13:28:33.965411: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-05-30 13:28:33.965705: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-05-30 13:28:35.347825: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+2024-05-30 13:28:36.921727: W tensorflow/core/common_runtime/gpu/gpu_device.cc:2256] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2024-05-30 13:28:37.039970: W external/local_tsl/tsl/platform/cloud/google_auth_provider.cc:184] All attempts to get a Google authentication bearer token failed, returning an empty token. Retrieving token from files failed with "NOT_FOUND: Could not locate the credentials file.". Retrieving token from GCE failed with "FAILED_PRECONDITION: Error executing an HTTP request: libcurl code 6 meaning 'Couldn't resolve host name', error details: Could not resolve host: metadata.google.internal".
+2024-05-30 13:28:42.908967: I external/local_xla/xla/service/service.cc:168] XLA service 0x16d83370 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2024-05-30 13:28:42.909019: I external/local_xla/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2024-05-30 13:28:43.649168: I tensorflow/compiler/mlir/tensorflow/utils/dump_mlir_util.cc:269] disabling MLIR crash reproducer, set env var `MLIR_CRASH_REPRODUCER_DIRECTORY` to enable.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1717093730.515428   20394 device_compiler.h:186] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
+2024-05-30 13:28:50.534869: E external/local_xla/xla/stream_executor/stream_executor_internal.h:177] SetPriority unimplemented for this stream.
+Successfully processed /home/dan/DeepLearning/mini_temporal/generations/TQE_IT/gemma-1_1-7b-it/no_context_trained/random_context_evaluated/TQE_gemma-1_1-7b-it_no_context_trained_random_context_evaluated.jsonl
+Processing Actual: /home/dan/DeepLearning/mini_temporal/clean_for_fatemeh/new_data/test.jsonl, Prediction: /home/dan/DeepLearning/mini_temporal/generations/TQE_IT/gemma-1_1-7b-it/no_context_trained/relevant_context_evaluated/TQE_gemma-1_1-7b-it_no_context_trained_relevant_context_evaluated.jsonl
+2024-05-30 13:29:59.391057: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-05-30 13:29:59.427448: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-05-30 13:29:59.427499: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-05-30 13:29:59.428576: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-05-30 13:29:59.435067: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-05-30 13:29:59.435503: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-05-30 13:30:00.336811: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+2024-05-30 13:30:01.742372: W tensorflow/core/common_runtime/gpu/gpu_device.cc:2256] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2024-05-30 13:30:01.858930: W external/local_tsl/tsl/platform/cloud/google_auth_provider.cc:184] All attempts to get a Google authentication bearer token failed, returning an empty token. Retrieving token from files failed with "NOT_FOUND: Could not locate the credentials file.". Retrieving token from GCE failed with "FAILED_PRECONDITION: Error executing an HTTP request: libcurl code 6 meaning 'Couldn't resolve host name', error details: Could not resolve host: metadata.google.internal".
+2024-05-30 13:30:05.788839: I external/local_xla/xla/service/service.cc:168] XLA service 0x18006fb0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2024-05-30 13:30:05.788890: I external/local_xla/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2024-05-30 13:30:06.220639: I tensorflow/compiler/mlir/tensorflow/utils/dump_mlir_util.cc:269] disabling MLIR crash reproducer, set env var `MLIR_CRASH_REPRODUCER_DIRECTORY` to enable.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1717093810.121866   22170 device_compiler.h:186] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
+2024-05-30 13:30:10.135397: E external/local_xla/xla/stream_executor/stream_executor_internal.h:177] SetPriority unimplemented for this stream.
+Successfully processed /home/dan/DeepLearning/mini_temporal/generations/TQE_IT/gemma-1_1-7b-it/no_context_trained/relevant_context_evaluated/TQE_gemma-1_1-7b-it_no_context_trained_relevant_context_evaluated.jsonl
+Processing Actual: /home/dan/DeepLearning/mini_temporal/clean_for_fatemeh/new_data/test.jsonl, Prediction: /home/dan/DeepLearning/mini_temporal/generations/TQE_IT/gemma-1_1-7b-it/no_context_trained/wrong_date_context_evaluated/TQE_gemma-1_1-7b-it_no_context_trained_wrong_date_context_evaluated.jsonl
+2024-05-30 13:31:20.143884: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-05-30 13:31:20.183350: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-05-30 13:31:20.183409: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-05-30 13:31:20.184468: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-05-30 13:31:20.190325: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-05-30 13:31:20.190565: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-05-30 13:31:21.132137: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+2024-05-30 13:31:22.613644: W tensorflow/core/common_runtime/gpu/gpu_device.cc:2256] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2024-05-30 13:31:22.703521: W external/local_tsl/tsl/platform/cloud/google_auth_provider.cc:184] All attempts to get a Google authentication bearer token failed, returning an empty token. Retrieving token from files failed with "NOT_FOUND: Could not locate the credentials file.". Retrieving token from GCE failed with "FAILED_PRECONDITION: Error executing an HTTP request: libcurl code 6 meaning 'Couldn't resolve host name', error details: Could not resolve host: metadata.google.internal".
+2024-05-30 13:31:26.856943: I external/local_xla/xla/service/service.cc:168] XLA service 0x17432510 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2024-05-30 13:31:26.856993: I external/local_xla/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2024-05-30 13:31:27.667041: I tensorflow/compiler/mlir/tensorflow/utils/dump_mlir_util.cc:269] disabling MLIR crash reproducer, set env var `MLIR_CRASH_REPRODUCER_DIRECTORY` to enable.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1717093894.240282   23833 device_compiler.h:186] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
+2024-05-30 13:31:34.261322: E external/local_xla/xla/stream_executor/stream_executor_internal.h:177] SetPriority unimplemented for this stream.
+Successfully processed /home/dan/DeepLearning/mini_temporal/generations/TQE_IT/gemma-1_1-7b-it/no_context_trained/wrong_date_context_evaluated/TQE_gemma-1_1-7b-it_no_context_trained_wrong_date_context_evaluated.jsonl
+Processing Actual: /home/dan/DeepLearning/mini_temporal/clean_for_fatemeh/new_data/test.jsonl, Prediction: /home/dan/DeepLearning/mini_temporal/generations/TQE_IT/gemma-1_1-7b-it/no_context_trained/no_context_evaluated/TQE_gemma-1_1-7b-it_no_context_trained_no_context_evaluated.jsonl
+2024-05-30 13:32:45.171689: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-05-30 13:32:45.236026: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-05-30 13:32:45.236091: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-05-30 13:32:45.237546: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-05-30 13:32:45.246455: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-05-30 13:32:45.246708: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-05-30 13:32:46.680165: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+/home/dan/DeepLearning/mini_temporal/eval/eval_it.py:79: MarkupResemblesLocatorWarning: The input looks more like a filename than markup. You may want to open this file and pass the filehandle into Beautiful Soup.
+  soup = BeautifulSoup(text, "lxml")
+2024-05-30 13:32:48.314792: W tensorflow/core/common_runtime/gpu/gpu_device.cc:2256] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2024-05-30 13:32:48.400791: W external/local_tsl/tsl/platform/cloud/google_auth_provider.cc:184] All attempts to get a Google authentication bearer token failed, returning an empty token. Retrieving token from files failed with "NOT_FOUND: Could not locate the credentials file.". Retrieving token from GCE failed with "FAILED_PRECONDITION: Error executing an HTTP request: libcurl code 6 meaning 'Couldn't resolve host name', error details: Could not resolve host: metadata.google.internal".
+2024-05-30 13:32:54.248892: I external/local_xla/xla/service/service.cc:168] XLA service 0x17a75f20 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2024-05-30 13:32:54.248950: I external/local_xla/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2024-05-30 13:32:55.010455: I tensorflow/compiler/mlir/tensorflow/utils/dump_mlir_util.cc:269] disabling MLIR crash reproducer, set env var `MLIR_CRASH_REPRODUCER_DIRECTORY` to enable.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1717093979.129524   25558 device_compiler.h:186] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
+2024-05-30 13:32:59.142372: E external/local_xla/xla/stream_executor/stream_executor_internal.h:177] SetPriority unimplemented for this stream.
+Successfully processed /home/dan/DeepLearning/mini_temporal/generations/TQE_IT/gemma-1_1-7b-it/no_context_trained/no_context_evaluated/TQE_gemma-1_1-7b-it_no_context_trained_no_context_evaluated.jsonl
+Processing Actual: /home/dan/DeepLearning/mini_temporal/clean_for_fatemeh/new_data/test.jsonl, Prediction: /home/dan/DeepLearning/mini_temporal/generations/TQE_IT/gemma-1_1-7b-it/relevant_context_trained/random_context_evaluated/TQE_gemma-1_1-7b-it_relevant_context_trained_random_context_evaluated.jsonl
+2024-05-30 13:34:10.056697: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-05-30 13:34:10.163251: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-05-30 13:34:10.163368: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-05-30 13:34:10.165222: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-05-30 13:34:10.176155: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-05-30 13:34:10.176451: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-05-30 13:34:11.651792: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+2024-05-30 13:34:13.341185: W tensorflow/core/common_runtime/gpu/gpu_device.cc:2256] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2024-05-30 13:34:13.445572: W external/local_tsl/tsl/platform/cloud/google_auth_provider.cc:184] All attempts to get a Google authentication bearer token failed, returning an empty token. Retrieving token from files failed with "NOT_FOUND: Could not locate the credentials file.". Retrieving token from GCE failed with "FAILED_PRECONDITION: Error executing an HTTP request: libcurl code 6 meaning 'Couldn't resolve host name', error details: Could not resolve host: metadata.google.internal".
+2024-05-30 13:34:18.284973: I external/local_xla/xla/service/service.cc:168] XLA service 0x179857a0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2024-05-30 13:34:18.285030: I external/local_xla/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2024-05-30 13:34:19.043710: I tensorflow/compiler/mlir/tensorflow/utils/dump_mlir_util.cc:269] disabling MLIR crash reproducer, set env var `MLIR_CRASH_REPRODUCER_DIRECTORY` to enable.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1717094065.813868   27299 device_compiler.h:186] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
+2024-05-30 13:34:25.863155: E external/local_xla/xla/stream_executor/stream_executor_internal.h:177] SetPriority unimplemented for this stream.
+Successfully processed /home/dan/DeepLearning/mini_temporal/generations/TQE_IT/gemma-1_1-7b-it/relevant_context_trained/random_context_evaluated/TQE_gemma-1_1-7b-it_relevant_context_trained_random_context_evaluated.jsonl
+Processing Actual: /home/dan/DeepLearning/mini_temporal/clean_for_fatemeh/new_data/test.jsonl, Prediction: /home/dan/DeepLearning/mini_temporal/generations/TQE_IT/gemma-1_1-7b-it/relevant_context_trained/relevant_context_evaluated/TQE_gemma-1_1-7b-it_relevant_context_trained_relevant_context_evaluated.jsonl
+2024-05-30 13:35:36.570772: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-05-30 13:35:36.643453: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-05-30 13:35:36.643535: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-05-30 13:35:36.645786: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-05-30 13:35:36.655315: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-05-30 13:35:36.655586: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-05-30 13:35:37.570589: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+2024-05-30 13:35:39.024860: W tensorflow/core/common_runtime/gpu/gpu_device.cc:2256] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2024-05-30 13:35:39.117239: W external/local_tsl/tsl/platform/cloud/google_auth_provider.cc:184] All attempts to get a Google authentication bearer token failed, returning an empty token. Retrieving token from files failed with "NOT_FOUND: Could not locate the credentials file.". Retrieving token from GCE failed with "FAILED_PRECONDITION: Error executing an HTTP request: libcurl code 6 meaning 'Couldn't resolve host name', error details: Could not resolve host: metadata.google.internal".
+2024-05-30 13:35:45.017030: I external/local_xla/xla/service/service.cc:168] XLA service 0x183480e0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2024-05-30 13:35:45.017089: I external/local_xla/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2024-05-30 13:35:45.773624: I tensorflow/compiler/mlir/tensorflow/utils/dump_mlir_util.cc:269] disabling MLIR crash reproducer, set env var `MLIR_CRASH_REPRODUCER_DIRECTORY` to enable.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1717094152.402261   29001 device_compiler.h:186] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
+2024-05-30 13:35:52.427482: E external/local_xla/xla/stream_executor/stream_executor_internal.h:177] SetPriority unimplemented for this stream.
+Successfully processed /home/dan/DeepLearning/mini_temporal/generations/TQE_IT/gemma-1_1-7b-it/relevant_context_trained/relevant_context_evaluated/TQE_gemma-1_1-7b-it_relevant_context_trained_relevant_context_evaluated.jsonl
+Processing Actual: /home/dan/DeepLearning/mini_temporal/clean_for_fatemeh/new_data/test.jsonl, Prediction: /home/dan/DeepLearning/mini_temporal/generations/TQE_IT/gemma-1_1-7b-it/relevant_context_trained/wrong_date_context_evaluated/TQE_gemma-1_1-7b-it_relevant_context_trained_wrong_date_context_evaluated.jsonl
+2024-05-30 13:37:02.772012: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-05-30 13:37:02.821678: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-05-30 13:37:02.821759: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-05-30 13:37:02.823817: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-05-30 13:37:02.834275: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-05-30 13:37:02.834660: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-05-30 13:37:03.721404: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+2024-05-30 13:37:05.232873: W tensorflow/core/common_runtime/gpu/gpu_device.cc:2256] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2024-05-30 13:37:05.345611: W external/local_tsl/tsl/platform/cloud/google_auth_provider.cc:184] All attempts to get a Google authentication bearer token failed, returning an empty token. Retrieving token from files failed with "NOT_FOUND: Could not locate the credentials file.". Retrieving token from GCE failed with "FAILED_PRECONDITION: Error executing an HTTP request: libcurl code 6 meaning 'Couldn't resolve host name', error details: Could not resolve host: metadata.google.internal".
+2024-05-30 13:37:11.325543: I external/local_xla/xla/service/service.cc:168] XLA service 0x188de460 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2024-05-30 13:37:11.325606: I external/local_xla/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2024-05-30 13:37:12.110748: I tensorflow/compiler/mlir/tensorflow/utils/dump_mlir_util.cc:269] disabling MLIR crash reproducer, set env var `MLIR_CRASH_REPRODUCER_DIRECTORY` to enable.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1717094236.423809   30724 device_compiler.h:186] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
+2024-05-30 13:37:16.434892: E external/local_xla/xla/stream_executor/stream_executor_internal.h:177] SetPriority unimplemented for this stream.
+Successfully processed /home/dan/DeepLearning/mini_temporal/generations/TQE_IT/gemma-1_1-7b-it/relevant_context_trained/wrong_date_context_evaluated/TQE_gemma-1_1-7b-it_relevant_context_trained_wrong_date_context_evaluated.jsonl
+Processing Actual: /home/dan/DeepLearning/mini_temporal/clean_for_fatemeh/new_data/test.jsonl, Prediction: /home/dan/DeepLearning/mini_temporal/generations/TQE_IT/gemma-1_1-7b-it/relevant_context_trained/no_context_evaluated/TQE_gemma-1_1-7b-it_relevant_context_trained_no_context_evaluated.jsonl
+2024-05-30 13:38:26.825322: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-05-30 13:38:26.898509: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-05-30 13:38:26.898575: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-05-30 13:38:26.900068: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-05-30 13:38:26.909612: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-05-30 13:38:26.910107: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-05-30 13:38:28.329307: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+2024-05-30 13:38:29.945340: W tensorflow/core/common_runtime/gpu/gpu_device.cc:2256] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2024-05-30 13:38:30.029787: W external/local_tsl/tsl/platform/cloud/google_auth_provider.cc:184] All attempts to get a Google authentication bearer token failed, returning an empty token. Retrieving token from files failed with "NOT_FOUND: Could not locate the credentials file.". Retrieving token from GCE failed with "FAILED_PRECONDITION: Error executing an HTTP request: libcurl code 6 meaning 'Couldn't resolve host name', error details: Could not resolve host: metadata.google.internal".
+2024-05-30 13:38:36.205144: I external/local_xla/xla/service/service.cc:168] XLA service 0x17185020 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2024-05-30 13:38:36.205205: I external/local_xla/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2024-05-30 13:38:36.983324: I tensorflow/compiler/mlir/tensorflow/utils/dump_mlir_util.cc:269] disabling MLIR crash reproducer, set env var `MLIR_CRASH_REPRODUCER_DIRECTORY` to enable.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1717094321.554510   32394 device_compiler.h:186] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
+2024-05-30 13:38:41.567540: E external/local_xla/xla/stream_executor/stream_executor_internal.h:177] SetPriority unimplemented for this stream.
+Successfully processed /home/dan/DeepLearning/mini_temporal/generations/TQE_IT/gemma-1_1-7b-it/relevant_context_trained/no_context_evaluated/TQE_gemma-1_1-7b-it_relevant_context_trained_no_context_evaluated.jsonl
+Processing Actual: /home/dan/DeepLearning/mini_temporal/clean_for_fatemeh/new_data/test.jsonl, Prediction: /home/dan/DeepLearning/mini_temporal/generations/TQE_IT/gemma-1_1-7b-it/random_context_trained/random_context_evaluated/TQE_gemma-1_1-7b-it_random_context_trained_random_context_evaluated.jsonl
+2024-05-30 13:39:51.610765: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-05-30 13:39:51.648979: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-05-30 13:39:51.649020: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-05-30 13:39:51.650144: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-05-30 13:39:51.656704: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-05-30 13:39:51.656964: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-05-30 13:39:52.549390: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+2024-05-30 13:39:54.879835: W tensorflow/core/common_runtime/gpu/gpu_device.cc:2256] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2024-05-30 13:39:54.996189: W external/local_tsl/tsl/platform/cloud/google_auth_provider.cc:184] All attempts to get a Google authentication bearer token failed, returning an empty token. Retrieving token from files failed with "NOT_FOUND: Could not locate the credentials file.". Retrieving token from GCE failed with "FAILED_PRECONDITION: Error executing an HTTP request: libcurl code 6 meaning 'Couldn't resolve host name', error details: Could not resolve host: metadata.google.internal".
+2024-05-30 13:40:00.844972: I external/local_xla/xla/service/service.cc:168] XLA service 0x164601a0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2024-05-30 13:40:00.845031: I external/local_xla/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2024-05-30 13:40:01.642517: I tensorflow/compiler/mlir/tensorflow/utils/dump_mlir_util.cc:269] disabling MLIR crash reproducer, set env var `MLIR_CRASH_REPRODUCER_DIRECTORY` to enable.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1717094408.639461    1678 device_compiler.h:186] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
+2024-05-30 13:40:08.652301: E external/local_xla/xla/stream_executor/stream_executor_internal.h:177] SetPriority unimplemented for this stream.
+Successfully processed /home/dan/DeepLearning/mini_temporal/generations/TQE_IT/gemma-1_1-7b-it/random_context_trained/random_context_evaluated/TQE_gemma-1_1-7b-it_random_context_trained_random_context_evaluated.jsonl
+Processing Actual: /home/dan/DeepLearning/mini_temporal/clean_for_fatemeh/new_data/test.jsonl, Prediction: /home/dan/DeepLearning/mini_temporal/generations/TQE_IT/gemma-1_1-7b-it/random_context_trained/relevant_context_evaluated/TQE_gemma-1_1-7b-it_random_context_trained_relevant_context_evaluated.jsonl
+2024-05-30 13:41:18.665701: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-05-30 13:41:18.704378: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-05-30 13:41:18.704421: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-05-30 13:41:18.705552: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-05-30 13:41:18.711579: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-05-30 13:41:18.711785: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-05-30 13:41:19.647290: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+2024-05-30 13:41:21.792157: W tensorflow/core/common_runtime/gpu/gpu_device.cc:2256] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2024-05-30 13:41:21.883498: W external/local_tsl/tsl/platform/cloud/google_auth_provider.cc:184] All attempts to get a Google authentication bearer token failed, returning an empty token. Retrieving token from files failed with "NOT_FOUND: Could not locate the credentials file.". Retrieving token from GCE failed with "FAILED_PRECONDITION: Error executing an HTTP request: libcurl code 6 meaning 'Couldn't resolve host name', error details: Could not resolve host: metadata.google.internal".
+2024-05-30 13:41:28.053348: I external/local_xla/xla/service/service.cc:168] XLA service 0x169340c0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2024-05-30 13:41:28.053453: I external/local_xla/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2024-05-30 13:41:28.824510: I tensorflow/compiler/mlir/tensorflow/utils/dump_mlir_util.cc:269] disabling MLIR crash reproducer, set env var `MLIR_CRASH_REPRODUCER_DIRECTORY` to enable.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1717094495.528916    3650 device_compiler.h:186] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
+2024-05-30 13:41:35.552928: E external/local_xla/xla/stream_executor/stream_executor_internal.h:177] SetPriority unimplemented for this stream.
+Successfully processed /home/dan/DeepLearning/mini_temporal/generations/TQE_IT/gemma-1_1-7b-it/random_context_trained/relevant_context_evaluated/TQE_gemma-1_1-7b-it_random_context_trained_relevant_context_evaluated.jsonl
+Processing Actual: /home/dan/DeepLearning/mini_temporal/clean_for_fatemeh/new_data/test.jsonl, Prediction: /home/dan/DeepLearning/mini_temporal/generations/TQE_IT/gemma-1_1-7b-it/random_context_trained/wrong_date_context_evaluated/TQE_gemma-1_1-7b-it_random_context_trained_wrong_date_context_evaluated.jsonl
+2024-05-30 13:42:45.985597: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-05-30 13:42:46.054108: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-05-30 13:42:46.054170: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-05-30 13:42:46.055539: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-05-30 13:42:46.066020: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-05-30 13:42:46.066309: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-05-30 13:42:47.518173: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+2024-05-30 13:42:49.228010: W tensorflow/core/common_runtime/gpu/gpu_device.cc:2256] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2024-05-30 13:42:49.326072: W external/local_tsl/tsl/platform/cloud/google_auth_provider.cc:184] All attempts to get a Google authentication bearer token failed, returning an empty token. Retrieving token from files failed with "NOT_FOUND: Could not locate the credentials file.". Retrieving token from GCE failed with "FAILED_PRECONDITION: Error executing an HTTP request: libcurl code 6 meaning 'Couldn't resolve host name', error details: Could not resolve host: metadata.google.internal".
+2024-05-30 13:42:53.096949: I external/local_xla/xla/service/service.cc:168] XLA service 0x18105030 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2024-05-30 13:42:53.097002: I external/local_xla/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2024-05-30 13:42:53.865075: I tensorflow/compiler/mlir/tensorflow/utils/dump_mlir_util.cc:269] disabling MLIR crash reproducer, set env var `MLIR_CRASH_REPRODUCER_DIRECTORY` to enable.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1717094580.730488    5350 device_compiler.h:186] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
+2024-05-30 13:43:00.755527: E external/local_xla/xla/stream_executor/stream_executor_internal.h:177] SetPriority unimplemented for this stream.
+Successfully processed /home/dan/DeepLearning/mini_temporal/generations/TQE_IT/gemma-1_1-7b-it/random_context_trained/wrong_date_context_evaluated/TQE_gemma-1_1-7b-it_random_context_trained_wrong_date_context_evaluated.jsonl
+Processing Actual: /home/dan/DeepLearning/mini_temporal/clean_for_fatemeh/new_data/test.jsonl, Prediction: /home/dan/DeepLearning/mini_temporal/generations/TQE_IT/gemma-1_1-7b-it/random_context_trained/no_context_evaluated/TQE_gemma-1_1-7b-it_random_context_trained_no_context_evaluated.jsonl
+2024-05-30 13:44:11.095802: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-05-30 13:44:11.132316: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-05-30 13:44:11.132393: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-05-30 13:44:11.133566: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-05-30 13:44:11.139836: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-05-30 13:44:11.140031: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-05-30 13:44:12.042377: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+2024-05-30 13:44:13.436002: W tensorflow/core/common_runtime/gpu/gpu_device.cc:2256] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2024-05-30 13:44:13.559643: W external/local_tsl/tsl/platform/cloud/google_auth_provider.cc:184] All attempts to get a Google authentication bearer token failed, returning an empty token. Retrieving token from files failed with "NOT_FOUND: Could not locate the credentials file.". Retrieving token from GCE failed with "FAILED_PRECONDITION: Error executing an HTTP request: libcurl code 6 meaning 'Couldn't resolve host name', error details: Could not resolve host: metadata.google.internal".
+2024-05-30 13:44:19.525140: I external/local_xla/xla/service/service.cc:168] XLA service 0x18d73e90 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2024-05-30 13:44:19.525217: I external/local_xla/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2024-05-30 13:44:20.323297: I tensorflow/compiler/mlir/tensorflow/utils/dump_mlir_util.cc:269] disabling MLIR crash reproducer, set env var `MLIR_CRASH_REPRODUCER_DIRECTORY` to enable.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1717094667.226712    7057 device_compiler.h:186] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
+2024-05-30 13:44:27.246079: E external/local_xla/xla/stream_executor/stream_executor_internal.h:177] SetPriority unimplemented for this stream.
+Successfully processed /home/dan/DeepLearning/mini_temporal/generations/TQE_IT/gemma-1_1-7b-it/random_context_trained/no_context_evaluated/TQE_gemma-1_1-7b-it_random_context_trained_no_context_evaluated.jsonl
+Processing Actual: /home/dan/DeepLearning/mini_temporal/clean_for_fatemeh/new_data/test.jsonl, Prediction: /home/dan/DeepLearning/mini_temporal/generations/TQE_IT/gemma-1_1-7b-it/wrong_date_context_trained/random_context_evaluated/TQE_gemma-1_1-7b-it_wrong_date_context_trained_random_context_evaluated.jsonl
+2024-05-30 13:45:38.115164: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-05-30 13:45:38.179836: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-05-30 13:45:38.179878: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-05-30 13:45:38.181048: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-05-30 13:45:38.187929: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-05-30 13:45:38.188128: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-05-30 13:45:39.635310: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+2024-05-30 13:45:42.009385: W tensorflow/core/common_runtime/gpu/gpu_device.cc:2256] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2024-05-30 13:45:42.106988: W external/local_tsl/tsl/platform/cloud/google_auth_provider.cc:184] All attempts to get a Google authentication bearer token failed, returning an empty token. Retrieving token from files failed with "NOT_FOUND: Could not locate the credentials file.". Retrieving token from GCE failed with "FAILED_PRECONDITION: Error executing an HTTP request: libcurl code 6 meaning 'Couldn't resolve host name', error details: Could not resolve host: metadata.google.internal".
+2024-05-30 13:45:48.024942: I external/local_xla/xla/service/service.cc:168] XLA service 0x1808d0e0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2024-05-30 13:45:48.025003: I external/local_xla/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2024-05-30 13:45:48.829430: I tensorflow/compiler/mlir/tensorflow/utils/dump_mlir_util.cc:269] disabling MLIR crash reproducer, set env var `MLIR_CRASH_REPRODUCER_DIRECTORY` to enable.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1717094755.617225    8741 device_compiler.h:186] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
+2024-05-30 13:45:55.634999: E external/local_xla/xla/stream_executor/stream_executor_internal.h:177] SetPriority unimplemented for this stream.
+Successfully processed /home/dan/DeepLearning/mini_temporal/generations/TQE_IT/gemma-1_1-7b-it/wrong_date_context_trained/random_context_evaluated/TQE_gemma-1_1-7b-it_wrong_date_context_trained_random_context_evaluated.jsonl
+Processing Actual: /home/dan/DeepLearning/mini_temporal/clean_for_fatemeh/new_data/test.jsonl, Prediction: /home/dan/DeepLearning/mini_temporal/generations/TQE_IT/gemma-1_1-7b-it/wrong_date_context_trained/relevant_context_evaluated/TQE_gemma-1_1-7b-it_wrong_date_context_trained_relevant_context_evaluated.jsonl
+2024-05-30 13:47:07.150839: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-05-30 13:47:07.221876: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-05-30 13:47:07.221923: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-05-30 13:47:07.223147: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-05-30 13:47:07.230488: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-05-30 13:47:07.230707: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-05-30 13:47:08.707560: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+2024-05-30 13:47:10.403059: W tensorflow/core/common_runtime/gpu/gpu_device.cc:2256] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2024-05-30 13:47:10.508561: W external/local_tsl/tsl/platform/cloud/google_auth_provider.cc:184] All attempts to get a Google authentication bearer token failed, returning an empty token. Retrieving token from files failed with "NOT_FOUND: Could not locate the credentials file.". Retrieving token from GCE failed with "FAILED_PRECONDITION: Error executing an HTTP request: libcurl code 6 meaning 'Couldn't resolve host name', error details: Could not resolve host: metadata.google.internal".
+2024-05-30 13:47:16.485457: I external/local_xla/xla/service/service.cc:168] XLA service 0x16a8bbf0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2024-05-30 13:47:16.485631: I external/local_xla/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2024-05-30 13:47:17.317527: I tensorflow/compiler/mlir/tensorflow/utils/dump_mlir_util.cc:269] disabling MLIR crash reproducer, set env var `MLIR_CRASH_REPRODUCER_DIRECTORY` to enable.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1717094841.804868   10460 device_compiler.h:186] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
+2024-05-30 13:47:21.815615: E external/local_xla/xla/stream_executor/stream_executor_internal.h:177] SetPriority unimplemented for this stream.
+Successfully processed /home/dan/DeepLearning/mini_temporal/generations/TQE_IT/gemma-1_1-7b-it/wrong_date_context_trained/relevant_context_evaluated/TQE_gemma-1_1-7b-it_wrong_date_context_trained_relevant_context_evaluated.jsonl
+Processing Actual: /home/dan/DeepLearning/mini_temporal/clean_for_fatemeh/new_data/test.jsonl, Prediction: /home/dan/DeepLearning/mini_temporal/generations/TQE_IT/gemma-1_1-7b-it/wrong_date_context_trained/wrong_date_context_evaluated/TQE_gemma-1_1-7b-it_wrong_date_context_trained_wrong_date_context_evaluated.jsonl
+2024-05-30 13:48:32.424885: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-05-30 13:48:32.500053: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-05-30 13:48:32.500123: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-05-30 13:48:32.502049: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-05-30 13:48:32.512167: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-05-30 13:48:32.512464: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-05-30 13:48:34.186268: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+2024-05-30 13:48:35.754943: W tensorflow/core/common_runtime/gpu/gpu_device.cc:2256] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2024-05-30 13:48:35.854920: W external/local_tsl/tsl/platform/cloud/google_auth_provider.cc:184] All attempts to get a Google authentication bearer token failed, returning an empty token. Retrieving token from files failed with "NOT_FOUND: Could not locate the credentials file.". Retrieving token from GCE failed with "FAILED_PRECONDITION: Error executing an HTTP request: libcurl code 6 meaning 'Couldn't resolve host name', error details: Could not resolve host: metadata.google.internal".
+2024-05-30 13:48:41.765462: I external/local_xla/xla/service/service.cc:168] XLA service 0x17fb58f0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2024-05-30 13:48:41.765550: I external/local_xla/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2024-05-30 13:48:42.633931: I tensorflow/compiler/mlir/tensorflow/utils/dump_mlir_util.cc:269] disabling MLIR crash reproducer, set env var `MLIR_CRASH_REPRODUCER_DIRECTORY` to enable.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1717094929.644485   12176 device_compiler.h:186] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
+2024-05-30 13:48:49.666789: E external/local_xla/xla/stream_executor/stream_executor_internal.h:177] SetPriority unimplemented for this stream.
+Successfully processed /home/dan/DeepLearning/mini_temporal/generations/TQE_IT/gemma-1_1-7b-it/wrong_date_context_trained/wrong_date_context_evaluated/TQE_gemma-1_1-7b-it_wrong_date_context_trained_wrong_date_context_evaluated.jsonl
+Processing Actual: /home/dan/DeepLearning/mini_temporal/clean_for_fatemeh/new_data/test.jsonl, Prediction: /home/dan/DeepLearning/mini_temporal/generations/TQE_IT/gemma-1_1-7b-it/wrong_date_context_trained/no_context_evaluated/TQE_gemma-1_1-7b-it_wrong_date_context_trained_no_context_evaluated.jsonl
+2024-05-30 13:50:00.381856: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-05-30 13:50:00.453130: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-05-30 13:50:00.453214: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-05-30 13:50:00.454830: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-05-30 13:50:00.464583: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-05-30 13:50:00.464850: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-05-30 13:50:02.020543: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+2024-05-30 13:50:03.681564: W tensorflow/core/common_runtime/gpu/gpu_device.cc:2256] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2024-05-30 13:50:03.761708: W external/local_tsl/tsl/platform/cloud/google_auth_provider.cc:184] All attempts to get a Google authentication bearer token failed, returning an empty token. Retrieving token from files failed with "NOT_FOUND: Could not locate the credentials file.". Retrieving token from GCE failed with "FAILED_PRECONDITION: Error executing an HTTP request: libcurl code 6 meaning 'Couldn't resolve host name', error details: Could not resolve host: metadata.google.internal".
+2024-05-30 13:50:08.908874: I external/local_xla/xla/service/service.cc:168] XLA service 0x17c65060 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2024-05-30 13:50:08.908926: I external/local_xla/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2024-05-30 13:50:09.644047: I tensorflow/compiler/mlir/tensorflow/utils/dump_mlir_util.cc:269] disabling MLIR crash reproducer, set env var `MLIR_CRASH_REPRODUCER_DIRECTORY` to enable.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1717095016.566137   13899 device_compiler.h:186] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
+2024-05-30 13:50:16.587593: E external/local_xla/xla/stream_executor/stream_executor_internal.h:177] SetPriority unimplemented for this stream.
+Successfully processed /home/dan/DeepLearning/mini_temporal/generations/TQE_IT/gemma-1_1-7b-it/wrong_date_context_trained/no_context_evaluated/TQE_gemma-1_1-7b-it_wrong_date_context_trained_no_context_evaluated.jsonl
+Processing Actual: /home/dan/DeepLearning/mini_temporal/clean_for_fatemeh/new_data/test.jsonl, Prediction: /home/dan/DeepLearning/mini_temporal/generations/TQE_IT/gemma-1_1-2b-it/no_context_trained/random_context_evaluated/TQE_gemma-1_1-2b-it_no_context_trained_random_context_evaluated.jsonl
+2024-05-30 13:51:27.038515: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-05-30 13:51:27.111810: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-05-30 13:51:27.111860: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-05-30 13:51:27.113368: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-05-30 13:51:27.122953: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-05-30 13:51:27.123320: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-05-30 13:51:28.522121: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+/home/dan/DeepLearning/mini_temporal/eval/eval_it.py:79: MarkupResemblesLocatorWarning: The input looks more like a filename than markup. You may want to open this file and pass the filehandle into Beautiful Soup.
+  soup = BeautifulSoup(text, "lxml")
+2024-05-30 13:51:30.811263: W tensorflow/core/common_runtime/gpu/gpu_device.cc:2256] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2024-05-30 13:51:30.912089: W external/local_tsl/tsl/platform/cloud/google_auth_provider.cc:184] All attempts to get a Google authentication bearer token failed, returning an empty token. Retrieving token from files failed with "NOT_FOUND: Could not locate the credentials file.". Retrieving token from GCE failed with "FAILED_PRECONDITION: Error executing an HTTP request: libcurl code 6 meaning 'Couldn't resolve host name', error details: Could not resolve host: metadata.google.internal".
+2024-05-30 13:51:36.900974: I external/local_xla/xla/service/service.cc:168] XLA service 0x17fbe8c0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2024-05-30 13:51:36.901038: I external/local_xla/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2024-05-30 13:51:37.661967: I tensorflow/compiler/mlir/tensorflow/utils/dump_mlir_util.cc:269] disabling MLIR crash reproducer, set env var `MLIR_CRASH_REPRODUCER_DIRECTORY` to enable.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1717095104.367649   15599 device_compiler.h:186] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
+2024-05-30 13:51:44.387945: E external/local_xla/xla/stream_executor/stream_executor_internal.h:177] SetPriority unimplemented for this stream.
+Successfully processed /home/dan/DeepLearning/mini_temporal/generations/TQE_IT/gemma-1_1-2b-it/no_context_trained/random_context_evaluated/TQE_gemma-1_1-2b-it_no_context_trained_random_context_evaluated.jsonl
+Processing Actual: /home/dan/DeepLearning/mini_temporal/clean_for_fatemeh/new_data/test.jsonl, Prediction: /home/dan/DeepLearning/mini_temporal/generations/TQE_IT/gemma-1_1-2b-it/no_context_trained/relevant_context_evaluated/TQE_gemma-1_1-2b-it_no_context_trained_relevant_context_evaluated.jsonl
+2024-05-30 13:52:54.856486: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-05-30 13:52:54.895213: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-05-30 13:52:54.895271: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-05-30 13:52:54.896375: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-05-30 13:52:54.902472: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-05-30 13:52:54.902678: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-05-30 13:52:55.811145: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+/home/dan/DeepLearning/mini_temporal/eval/eval_it.py:79: MarkupResemblesLocatorWarning: The input looks more like a filename than markup. You may want to open this file and pass the filehandle into Beautiful Soup.
+  soup = BeautifulSoup(text, "lxml")
+2024-05-30 13:52:57.271513: W tensorflow/core/common_runtime/gpu/gpu_device.cc:2256] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2024-05-30 13:52:57.364810: W external/local_tsl/tsl/platform/cloud/google_auth_provider.cc:184] All attempts to get a Google authentication bearer token failed, returning an empty token. Retrieving token from files failed with "NOT_FOUND: Could not locate the credentials file.". Retrieving token from GCE failed with "FAILED_PRECONDITION: Error executing an HTTP request: libcurl code 6 meaning 'Couldn't resolve host name', error details: Could not resolve host: metadata.google.internal".
+2024-05-30 13:53:01.537031: I external/local_xla/xla/service/service.cc:168] XLA service 0x17d36960 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2024-05-30 13:53:01.537105: I external/local_xla/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2024-05-30 13:53:02.049057: I tensorflow/compiler/mlir/tensorflow/utils/dump_mlir_util.cc:269] disabling MLIR crash reproducer, set env var `MLIR_CRASH_REPRODUCER_DIRECTORY` to enable.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1717095186.041697   17320 device_compiler.h:186] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
+2024-05-30 13:53:06.061299: E external/local_xla/xla/stream_executor/stream_executor_internal.h:177] SetPriority unimplemented for this stream.
+Successfully processed /home/dan/DeepLearning/mini_temporal/generations/TQE_IT/gemma-1_1-2b-it/no_context_trained/relevant_context_evaluated/TQE_gemma-1_1-2b-it_no_context_trained_relevant_context_evaluated.jsonl
+Processing Actual: /home/dan/DeepLearning/mini_temporal/clean_for_fatemeh/new_data/test.jsonl, Prediction: /home/dan/DeepLearning/mini_temporal/generations/TQE_IT/gemma-1_1-2b-it/no_context_trained/wrong_date_context_evaluated/TQE_gemma-1_1-2b-it_no_context_trained_wrong_date_context_evaluated.jsonl
+2024-05-30 13:54:17.052321: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-05-30 13:54:17.090252: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-05-30 13:54:17.090309: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-05-30 13:54:17.091466: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-05-30 13:54:17.097455: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-05-30 13:54:17.097700: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-05-30 13:54:17.986201: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+/home/dan/DeepLearning/mini_temporal/eval/eval_it.py:79: MarkupResemblesLocatorWarning: The input looks more like a filename than markup. You may want to open this file and pass the filehandle into Beautiful Soup.
+  soup = BeautifulSoup(text, "lxml")
+2024-05-30 13:54:20.233804: W tensorflow/core/common_runtime/gpu/gpu_device.cc:2256] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2024-05-30 13:54:20.336158: W external/local_tsl/tsl/platform/cloud/google_auth_provider.cc:184] All attempts to get a Google authentication bearer token failed, returning an empty token. Retrieving token from files failed with "NOT_FOUND: Could not locate the credentials file.". Retrieving token from GCE failed with "FAILED_PRECONDITION: Error executing an HTTP request: libcurl code 6 meaning 'Couldn't resolve host name', error details: Could not resolve host: metadata.google.internal".
+2024-05-30 13:54:25.948886: I external/local_xla/xla/service/service.cc:168] XLA service 0x183ade50 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2024-05-30 13:54:25.948955: I external/local_xla/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2024-05-30 13:54:26.791393: I tensorflow/compiler/mlir/tensorflow/utils/dump_mlir_util.cc:269] disabling MLIR crash reproducer, set env var `MLIR_CRASH_REPRODUCER_DIRECTORY` to enable.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1717095273.577677   18920 device_compiler.h:186] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
+2024-05-30 13:54:33.597772: E external/local_xla/xla/stream_executor/stream_executor_internal.h:177] SetPriority unimplemented for this stream.
+Successfully processed /home/dan/DeepLearning/mini_temporal/generations/TQE_IT/gemma-1_1-2b-it/no_context_trained/wrong_date_context_evaluated/TQE_gemma-1_1-2b-it_no_context_trained_wrong_date_context_evaluated.jsonl
+Processing Actual: /home/dan/DeepLearning/mini_temporal/clean_for_fatemeh/new_data/test.jsonl, Prediction: /home/dan/DeepLearning/mini_temporal/generations/TQE_IT/gemma-1_1-2b-it/no_context_trained/no_context_evaluated/TQE_gemma-1_1-2b-it_no_context_trained_no_context_evaluated.jsonl
+2024-05-30 13:55:43.702428: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-05-30 13:55:43.738211: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-05-30 13:55:43.738256: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-05-30 13:55:43.739246: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-05-30 13:55:43.745760: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-05-30 13:55:43.745993: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-05-30 13:55:44.686676: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+/home/dan/DeepLearning/mini_temporal/eval/eval_it.py:79: MarkupResemblesLocatorWarning: The input looks more like a filename than markup. You may want to open this file and pass the filehandle into Beautiful Soup.
+  soup = BeautifulSoup(text, "lxml")
+2024-05-30 13:55:46.086611: W tensorflow/core/common_runtime/gpu/gpu_device.cc:2256] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2024-05-30 13:55:46.176815: W external/local_tsl/tsl/platform/cloud/google_auth_provider.cc:184] All attempts to get a Google authentication bearer token failed, returning an empty token. Retrieving token from files failed with "NOT_FOUND: Could not locate the credentials file.". Retrieving token from GCE failed with "FAILED_PRECONDITION: Error executing an HTTP request: libcurl code 6 meaning 'Couldn't resolve host name', error details: Could not resolve host: metadata.google.internal".
+2024-05-30 13:55:52.160836: I external/local_xla/xla/service/service.cc:168] XLA service 0x17040420 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2024-05-30 13:55:52.160885: I external/local_xla/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2024-05-30 13:55:53.019339: I tensorflow/compiler/mlir/tensorflow/utils/dump_mlir_util.cc:269] disabling MLIR crash reproducer, set env var `MLIR_CRASH_REPRODUCER_DIRECTORY` to enable.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1717095359.956037   20638 device_compiler.h:186] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
+2024-05-30 13:55:59.971193: E external/local_xla/xla/stream_executor/stream_executor_internal.h:177] SetPriority unimplemented for this stream.
+Successfully processed /home/dan/DeepLearning/mini_temporal/generations/TQE_IT/gemma-1_1-2b-it/no_context_trained/no_context_evaluated/TQE_gemma-1_1-2b-it_no_context_trained_no_context_evaluated.jsonl
+Processing Actual: /home/dan/DeepLearning/mini_temporal/clean_for_fatemeh/new_data/test.jsonl, Prediction: /home/dan/DeepLearning/mini_temporal/generations/TQE_IT/gemma-1_1-2b-it/relevant_context_trained/random_context_evaluated/TQE_gemma-1_1-2b-it_relevant_context_trained_random_context_evaluated.jsonl
+2024-05-30 13:57:10.573368: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-05-30 13:57:10.642558: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-05-30 13:57:10.642635: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-05-30 13:57:10.644178: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-05-30 13:57:10.681064: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-05-30 13:57:10.681636: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-05-30 13:57:12.157784: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+/home/dan/DeepLearning/mini_temporal/eval/eval_it.py:79: MarkupResemblesLocatorWarning: The input looks more like a filename than markup. You may want to open this file and pass the filehandle into Beautiful Soup.
+  soup = BeautifulSoup(text, "lxml")
+2024-05-30 13:57:13.790122: W tensorflow/core/common_runtime/gpu/gpu_device.cc:2256] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2024-05-30 13:57:13.871657: W external/local_tsl/tsl/platform/cloud/google_auth_provider.cc:184] All attempts to get a Google authentication bearer token failed, returning an empty token. Retrieving token from files failed with "NOT_FOUND: Could not locate the credentials file.". Retrieving token from GCE failed with "FAILED_PRECONDITION: Error executing an HTTP request: libcurl code 6 meaning 'Couldn't resolve host name', error details: Could not resolve host: metadata.google.internal".
+2024-05-30 13:57:19.873763: I external/local_xla/xla/service/service.cc:168] XLA service 0x16deff30 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2024-05-30 13:57:19.873832: I external/local_xla/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2024-05-30 13:57:20.627903: I tensorflow/compiler/mlir/tensorflow/utils/dump_mlir_util.cc:269] disabling MLIR crash reproducer, set env var `MLIR_CRASH_REPRODUCER_DIRECTORY` to enable.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1717095445.248201   22370 device_compiler.h:186] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
+2024-05-30 13:57:25.261716: E external/local_xla/xla/stream_executor/stream_executor_internal.h:177] SetPriority unimplemented for this stream.
+Successfully processed /home/dan/DeepLearning/mini_temporal/generations/TQE_IT/gemma-1_1-2b-it/relevant_context_trained/random_context_evaluated/TQE_gemma-1_1-2b-it_relevant_context_trained_random_context_evaluated.jsonl
+Processing Actual: /home/dan/DeepLearning/mini_temporal/clean_for_fatemeh/new_data/test.jsonl, Prediction: /home/dan/DeepLearning/mini_temporal/generations/TQE_IT/gemma-1_1-2b-it/relevant_context_trained/relevant_context_evaluated/TQE_gemma-1_1-2b-it_relevant_context_trained_relevant_context_evaluated.jsonl
+2024-05-30 13:58:36.313000: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-05-30 13:58:36.384170: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-05-30 13:58:36.384219: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-05-30 13:58:36.385665: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-05-30 13:58:36.396150: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-05-30 13:58:36.396442: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-05-30 13:58:37.368098: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+/home/dan/DeepLearning/mini_temporal/eval/eval_it.py:79: MarkupResemblesLocatorWarning: The input looks more like a filename than markup. You may want to open this file and pass the filehandle into Beautiful Soup.
+  soup = BeautifulSoup(text, "lxml")
+2024-05-30 13:58:38.797400: W tensorflow/core/common_runtime/gpu/gpu_device.cc:2256] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2024-05-30 13:58:38.893988: W external/local_tsl/tsl/platform/cloud/google_auth_provider.cc:184] All attempts to get a Google authentication bearer token failed, returning an empty token. Retrieving token from files failed with "NOT_FOUND: Could not locate the credentials file.". Retrieving token from GCE failed with "FAILED_PRECONDITION: Error executing an HTTP request: libcurl code 6 meaning 'Couldn't resolve host name', error details: Could not resolve host: metadata.google.internal".
+2024-05-30 13:58:45.073755: I external/local_xla/xla/service/service.cc:168] XLA service 0x16b63500 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2024-05-30 13:58:45.073817: I external/local_xla/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2024-05-30 13:58:45.821091: I tensorflow/compiler/mlir/tensorflow/utils/dump_mlir_util.cc:269] disabling MLIR crash reproducer, set env var `MLIR_CRASH_REPRODUCER_DIRECTORY` to enable.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1717095529.714800   24145 device_compiler.h:186] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
+2024-05-30 13:58:49.728051: E external/local_xla/xla/stream_executor/stream_executor_internal.h:177] SetPriority unimplemented for this stream.
+Successfully processed /home/dan/DeepLearning/mini_temporal/generations/TQE_IT/gemma-1_1-2b-it/relevant_context_trained/relevant_context_evaluated/TQE_gemma-1_1-2b-it_relevant_context_trained_relevant_context_evaluated.jsonl
+Processing Actual: /home/dan/DeepLearning/mini_temporal/clean_for_fatemeh/new_data/test.jsonl, Prediction: /home/dan/DeepLearning/mini_temporal/generations/TQE_IT/gemma-1_1-2b-it/relevant_context_trained/wrong_date_context_evaluated/TQE_gemma-1_1-2b-it_relevant_context_trained_wrong_date_context_evaluated.jsonl
+2024-05-30 14:00:01.203101: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-05-30 14:00:01.242935: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-05-30 14:00:01.242992: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-05-30 14:00:01.244171: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-05-30 14:00:01.250506: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-05-30 14:00:01.250738: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-05-30 14:00:02.270831: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+2024-05-30 14:00:04.733089: W tensorflow/core/common_runtime/gpu/gpu_device.cc:2256] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2024-05-30 14:00:04.834021: W external/local_tsl/tsl/platform/cloud/google_auth_provider.cc:184] All attempts to get a Google authentication bearer token failed, returning an empty token. Retrieving token from files failed with "NOT_FOUND: Could not locate the credentials file.". Retrieving token from GCE failed with "FAILED_PRECONDITION: Error executing an HTTP request: libcurl code 6 meaning 'Couldn't resolve host name', error details: Could not resolve host: metadata.google.internal".
+2024-05-30 14:00:10.872992: I external/local_xla/xla/service/service.cc:168] XLA service 0x175221d0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2024-05-30 14:00:10.873058: I external/local_xla/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2024-05-30 14:00:11.667634: I tensorflow/compiler/mlir/tensorflow/utils/dump_mlir_util.cc:269] disabling MLIR crash reproducer, set env var `MLIR_CRASH_REPRODUCER_DIRECTORY` to enable.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1717095616.849256   25888 device_compiler.h:186] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
+2024-05-30 14:00:16.862384: E external/local_xla/xla/stream_executor/stream_executor_internal.h:177] SetPriority unimplemented for this stream.
+Successfully processed /home/dan/DeepLearning/mini_temporal/generations/TQE_IT/gemma-1_1-2b-it/relevant_context_trained/wrong_date_context_evaluated/TQE_gemma-1_1-2b-it_relevant_context_trained_wrong_date_context_evaluated.jsonl
+Processing Actual: /home/dan/DeepLearning/mini_temporal/clean_for_fatemeh/new_data/test.jsonl, Prediction: /home/dan/DeepLearning/mini_temporal/generations/TQE_IT/gemma-1_1-2b-it/relevant_context_trained/no_context_evaluated/TQE_gemma-1_1-2b-it_relevant_context_trained_no_context_evaluated.jsonl
+2024-05-30 14:01:27.494620: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-05-30 14:01:27.530619: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-05-30 14:01:27.530661: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-05-30 14:01:27.531887: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-05-30 14:01:27.538153: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-05-30 14:01:27.538354: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-05-30 14:01:28.477261: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+/home/dan/DeepLearning/mini_temporal/eval/eval_it.py:79: MarkupResemblesLocatorWarning: The input looks more like a filename than markup. You may want to open this file and pass the filehandle into Beautiful Soup.
+  soup = BeautifulSoup(text, "lxml")
+2024-05-30 14:01:29.928834: W tensorflow/core/common_runtime/gpu/gpu_device.cc:2256] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2024-05-30 14:01:30.046476: W external/local_tsl/tsl/platform/cloud/google_auth_provider.cc:184] All attempts to get a Google authentication bearer token failed, returning an empty token. Retrieving token from files failed with "NOT_FOUND: Could not locate the credentials file.". Retrieving token from GCE failed with "FAILED_PRECONDITION: Error executing an HTTP request: libcurl code 6 meaning 'Couldn't resolve host name', error details: Could not resolve host: metadata.google.internal".
+2024-05-30 14:01:35.240846: I external/local_xla/xla/service/service.cc:168] XLA service 0x17689370 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2024-05-30 14:01:35.240899: I external/local_xla/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2024-05-30 14:01:35.677067: I tensorflow/compiler/mlir/tensorflow/utils/dump_mlir_util.cc:269] disabling MLIR crash reproducer, set env var `MLIR_CRASH_REPRODUCER_DIRECTORY` to enable.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1717095699.543649   27634 device_compiler.h:186] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
+2024-05-30 14:01:39.557030: E external/local_xla/xla/stream_executor/stream_executor_internal.h:177] SetPriority unimplemented for this stream.
+Successfully processed /home/dan/DeepLearning/mini_temporal/generations/TQE_IT/gemma-1_1-2b-it/relevant_context_trained/no_context_evaluated/TQE_gemma-1_1-2b-it_relevant_context_trained_no_context_evaluated.jsonl
+Processing Actual: /home/dan/DeepLearning/mini_temporal/clean_for_fatemeh/new_data/test.jsonl, Prediction: /home/dan/DeepLearning/mini_temporal/generations/TQE_IT/gemma-1_1-2b-it/random_context_trained/random_context_evaluated/TQE_gemma-1_1-2b-it_random_context_trained_random_context_evaluated.jsonl
+2024-05-30 14:02:51.063726: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-05-30 14:02:51.136033: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-05-30 14:02:51.136107: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-05-30 14:02:51.137754: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-05-30 14:02:51.149016: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-05-30 14:02:51.149311: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-05-30 14:02:52.640239: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+2024-05-30 14:02:54.209098: W tensorflow/core/common_runtime/gpu/gpu_device.cc:2256] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2024-05-30 14:02:54.298069: W external/local_tsl/tsl/platform/cloud/google_auth_provider.cc:184] All attempts to get a Google authentication bearer token failed, returning an empty token. Retrieving token from files failed with "NOT_FOUND: Could not locate the credentials file.". Retrieving token from GCE failed with "FAILED_PRECONDITION: Error executing an HTTP request: libcurl code 6 meaning 'Couldn't resolve host name', error details: Could not resolve host: metadata.google.internal".
+2024-05-30 14:03:00.236899: I external/local_xla/xla/service/service.cc:168] XLA service 0x17a56e40 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2024-05-30 14:03:00.236952: I external/local_xla/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2024-05-30 14:03:00.967355: I tensorflow/compiler/mlir/tensorflow/utils/dump_mlir_util.cc:269] disabling MLIR crash reproducer, set env var `MLIR_CRASH_REPRODUCER_DIRECTORY` to enable.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1717095787.880445   29307 device_compiler.h:186] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
+2024-05-30 14:03:07.904113: E external/local_xla/xla/stream_executor/stream_executor_internal.h:177] SetPriority unimplemented for this stream.
+Successfully processed /home/dan/DeepLearning/mini_temporal/generations/TQE_IT/gemma-1_1-2b-it/random_context_trained/random_context_evaluated/TQE_gemma-1_1-2b-it_random_context_trained_random_context_evaluated.jsonl
+Processing Actual: /home/dan/DeepLearning/mini_temporal/clean_for_fatemeh/new_data/test.jsonl, Prediction: /home/dan/DeepLearning/mini_temporal/generations/TQE_IT/gemma-1_1-2b-it/random_context_trained/relevant_context_evaluated/TQE_gemma-1_1-2b-it_random_context_trained_relevant_context_evaluated.jsonl
+2024-05-30 14:04:18.551038: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-05-30 14:04:18.615376: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-05-30 14:04:18.615484: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-05-30 14:04:18.617587: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-05-30 14:04:18.626814: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-05-30 14:04:18.627062: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-05-30 14:04:20.185052: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+/home/dan/DeepLearning/mini_temporal/eval/eval_it.py:79: MarkupResemblesLocatorWarning: The input looks more like a filename than markup. You may want to open this file and pass the filehandle into Beautiful Soup.
+  soup = BeautifulSoup(text, "lxml")
+2024-05-30 14:04:22.517123: W tensorflow/core/common_runtime/gpu/gpu_device.cc:2256] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2024-05-30 14:04:22.611666: W external/local_tsl/tsl/platform/cloud/google_auth_provider.cc:184] All attempts to get a Google authentication bearer token failed, returning an empty token. Retrieving token from files failed with "NOT_FOUND: Could not locate the credentials file.". Retrieving token from GCE failed with "FAILED_PRECONDITION: Error executing an HTTP request: libcurl code 6 meaning 'Couldn't resolve host name', error details: Could not resolve host: metadata.google.internal".
+2024-05-30 14:04:28.464934: I external/local_xla/xla/service/service.cc:168] XLA service 0x185d82c0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2024-05-30 14:04:28.464997: I external/local_xla/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2024-05-30 14:04:29.345455: I tensorflow/compiler/mlir/tensorflow/utils/dump_mlir_util.cc:269] disabling MLIR crash reproducer, set env var `MLIR_CRASH_REPRODUCER_DIRECTORY` to enable.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1717095876.116615   31104 device_compiler.h:186] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
+2024-05-30 14:04:36.134505: E external/local_xla/xla/stream_executor/stream_executor_internal.h:177] SetPriority unimplemented for this stream.
+Successfully processed /home/dan/DeepLearning/mini_temporal/generations/TQE_IT/gemma-1_1-2b-it/random_context_trained/relevant_context_evaluated/TQE_gemma-1_1-2b-it_random_context_trained_relevant_context_evaluated.jsonl
+Processing Actual: /home/dan/DeepLearning/mini_temporal/clean_for_fatemeh/new_data/test.jsonl, Prediction: /home/dan/DeepLearning/mini_temporal/generations/TQE_IT/gemma-1_1-2b-it/random_context_trained/wrong_date_context_evaluated/TQE_gemma-1_1-2b-it_random_context_trained_wrong_date_context_evaluated.jsonl
+2024-05-30 14:05:47.193908: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-05-30 14:05:47.258235: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-05-30 14:05:47.258297: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-05-30 14:05:47.259668: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-05-30 14:05:47.268055: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-05-30 14:05:47.268372: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-05-30 14:05:48.823126: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+2024-05-30 14:05:50.466614: W tensorflow/core/common_runtime/gpu/gpu_device.cc:2256] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2024-05-30 14:05:50.552051: W external/local_tsl/tsl/platform/cloud/google_auth_provider.cc:184] All attempts to get a Google authentication bearer token failed, returning an empty token. Retrieving token from files failed with "NOT_FOUND: Could not locate the credentials file.". Retrieving token from GCE failed with "FAILED_PRECONDITION: Error executing an HTTP request: libcurl code 6 meaning 'Couldn't resolve host name', error details: Could not resolve host: metadata.google.internal".
+2024-05-30 14:05:56.721378: I external/local_xla/xla/service/service.cc:168] XLA service 0x175483d0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2024-05-30 14:05:56.721444: I external/local_xla/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2024-05-30 14:05:57.522015: I tensorflow/compiler/mlir/tensorflow/utils/dump_mlir_util.cc:269] disabling MLIR crash reproducer, set env var `MLIR_CRASH_REPRODUCER_DIRECTORY` to enable.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1717095964.321890     395 device_compiler.h:186] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
+2024-05-30 14:06:04.371667: E external/local_xla/xla/stream_executor/stream_executor_internal.h:177] SetPriority unimplemented for this stream.
+Successfully processed /home/dan/DeepLearning/mini_temporal/generations/TQE_IT/gemma-1_1-2b-it/random_context_trained/wrong_date_context_evaluated/TQE_gemma-1_1-2b-it_random_context_trained_wrong_date_context_evaluated.jsonl
+Processing Actual: /home/dan/DeepLearning/mini_temporal/clean_for_fatemeh/new_data/test.jsonl, Prediction: /home/dan/DeepLearning/mini_temporal/generations/TQE_IT/gemma-1_1-2b-it/random_context_trained/no_context_evaluated/TQE_gemma-1_1-2b-it_random_context_trained_no_context_evaluated.jsonl
+2024-05-30 14:07:14.930429: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-05-30 14:07:14.978402: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-05-30 14:07:14.978475: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-05-30 14:07:14.979976: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-05-30 14:07:14.989079: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-05-30 14:07:14.989321: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-05-30 14:07:15.786983: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+/home/dan/DeepLearning/mini_temporal/eval/eval_it.py:79: MarkupResemblesLocatorWarning: The input looks more like a filename than markup. You may want to open this file and pass the filehandle into Beautiful Soup.
+  soup = BeautifulSoup(text, "lxml")
+2024-05-30 14:07:17.303129: W tensorflow/core/common_runtime/gpu/gpu_device.cc:2256] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2024-05-30 14:07:17.405380: W external/local_tsl/tsl/platform/cloud/google_auth_provider.cc:184] All attempts to get a Google authentication bearer token failed, returning an empty token. Retrieving token from files failed with "NOT_FOUND: Could not locate the credentials file.". Retrieving token from GCE failed with "FAILED_PRECONDITION: Error executing an HTTP request: libcurl code 6 meaning 'Couldn't resolve host name', error details: Could not resolve host: metadata.google.internal".
+2024-05-30 14:07:23.344876: I external/local_xla/xla/service/service.cc:168] XLA service 0x17d78890 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2024-05-30 14:07:23.344935: I external/local_xla/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2024-05-30 14:07:24.114905: I tensorflow/compiler/mlir/tensorflow/utils/dump_mlir_util.cc:269] disabling MLIR crash reproducer, set env var `MLIR_CRASH_REPRODUCER_DIRECTORY` to enable.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1717096048.656855    2307 device_compiler.h:186] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
+2024-05-30 14:07:28.667856: E external/local_xla/xla/stream_executor/stream_executor_internal.h:177] SetPriority unimplemented for this stream.
+Successfully processed /home/dan/DeepLearning/mini_temporal/generations/TQE_IT/gemma-1_1-2b-it/random_context_trained/no_context_evaluated/TQE_gemma-1_1-2b-it_random_context_trained_no_context_evaluated.jsonl
+Processing Actual: /home/dan/DeepLearning/mini_temporal/clean_for_fatemeh/new_data/test.jsonl, Prediction: /home/dan/DeepLearning/mini_temporal/generations/TQE_IT/gemma-1_1-2b-it/wrong_date_context_trained/random_context_evaluated/TQE_gemma-1_1-2b-it_wrong_date_context_trained_random_context_evaluated.jsonl
+2024-05-30 14:08:38.912771: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-05-30 14:08:38.987024: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-05-30 14:08:38.987091: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-05-30 14:08:38.988594: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-05-30 14:08:38.999052: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-05-30 14:08:38.999344: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-05-30 14:08:40.576193: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+2024-05-30 14:08:42.950670: W tensorflow/core/common_runtime/gpu/gpu_device.cc:2256] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2024-05-30 14:08:43.061335: W external/local_tsl/tsl/platform/cloud/google_auth_provider.cc:184] All attempts to get a Google authentication bearer token failed, returning an empty token. Retrieving token from files failed with "NOT_FOUND: Could not locate the credentials file.". Retrieving token from GCE failed with "FAILED_PRECONDITION: Error executing an HTTP request: libcurl code 6 meaning 'Couldn't resolve host name', error details: Could not resolve host: metadata.google.internal".
+2024-05-30 14:08:48.660922: I external/local_xla/xla/service/service.cc:168] XLA service 0x17a8dc80 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2024-05-30 14:08:48.660983: I external/local_xla/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2024-05-30 14:08:49.520895: I tensorflow/compiler/mlir/tensorflow/utils/dump_mlir_util.cc:269] disabling MLIR crash reproducer, set env var `MLIR_CRASH_REPRODUCER_DIRECTORY` to enable.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1717096136.361646    4144 device_compiler.h:186] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
+2024-05-30 14:08:56.383294: E external/local_xla/xla/stream_executor/stream_executor_internal.h:177] SetPriority unimplemented for this stream.
+Successfully processed /home/dan/DeepLearning/mini_temporal/generations/TQE_IT/gemma-1_1-2b-it/wrong_date_context_trained/random_context_evaluated/TQE_gemma-1_1-2b-it_wrong_date_context_trained_random_context_evaluated.jsonl
+Processing Actual: /home/dan/DeepLearning/mini_temporal/clean_for_fatemeh/new_data/test.jsonl, Prediction: /home/dan/DeepLearning/mini_temporal/generations/TQE_IT/gemma-1_1-2b-it/wrong_date_context_trained/relevant_context_evaluated/TQE_gemma-1_1-2b-it_wrong_date_context_trained_relevant_context_evaluated.jsonl
+2024-05-30 14:10:07.690367: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-05-30 14:10:07.725672: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-05-30 14:10:07.725721: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-05-30 14:10:07.726744: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-05-30 14:10:07.732604: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-05-30 14:10:07.732827: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-05-30 14:10:08.596896: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+/home/dan/DeepLearning/mini_temporal/eval/eval_it.py:79: MarkupResemblesLocatorWarning: The input looks more like a filename than markup. You may want to open this file and pass the filehandle into Beautiful Soup.
+  soup = BeautifulSoup(text, "lxml")
+2024-05-30 14:10:09.973014: W tensorflow/core/common_runtime/gpu/gpu_device.cc:2256] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2024-05-30 14:10:10.063832: W external/local_tsl/tsl/platform/cloud/google_auth_provider.cc:184] All attempts to get a Google authentication bearer token failed, returning an empty token. Retrieving token from files failed with "NOT_FOUND: Could not locate the credentials file.". Retrieving token from GCE failed with "FAILED_PRECONDITION: Error executing an HTTP request: libcurl code 6 meaning 'Couldn't resolve host name', error details: Could not resolve host: metadata.google.internal".
+2024-05-30 14:10:15.820932: I external/local_xla/xla/service/service.cc:168] XLA service 0x1735a590 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2024-05-30 14:10:15.821000: I external/local_xla/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2024-05-30 14:10:16.291740: I tensorflow/compiler/mlir/tensorflow/utils/dump_mlir_util.cc:269] disabling MLIR crash reproducer, set env var `MLIR_CRASH_REPRODUCER_DIRECTORY` to enable.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1717096220.169003    5893 device_compiler.h:186] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
+2024-05-30 14:10:20.178576: E external/local_xla/xla/stream_executor/stream_executor_internal.h:177] SetPriority unimplemented for this stream.
+Successfully processed /home/dan/DeepLearning/mini_temporal/generations/TQE_IT/gemma-1_1-2b-it/wrong_date_context_trained/relevant_context_evaluated/TQE_gemma-1_1-2b-it_wrong_date_context_trained_relevant_context_evaluated.jsonl
+Processing Actual: /home/dan/DeepLearning/mini_temporal/clean_for_fatemeh/new_data/test.jsonl, Prediction: /home/dan/DeepLearning/mini_temporal/generations/TQE_IT/gemma-1_1-2b-it/wrong_date_context_trained/wrong_date_context_evaluated/TQE_gemma-1_1-2b-it_wrong_date_context_trained_wrong_date_context_evaluated.jsonl
+2024-05-30 14:11:29.607533: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-05-30 14:11:29.681518: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-05-30 14:11:29.681590: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-05-30 14:11:29.683158: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-05-30 14:11:29.694875: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-05-30 14:11:29.695207: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-05-30 14:11:31.111027: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+/home/dan/DeepLearning/mini_temporal/eval/eval_it.py:79: MarkupResemblesLocatorWarning: The input looks more like a filename than markup. You may want to open this file and pass the filehandle into Beautiful Soup.
+  soup = BeautifulSoup(text, "lxml")
+2024-05-30 14:11:33.636538: W tensorflow/core/common_runtime/gpu/gpu_device.cc:2256] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2024-05-30 14:11:35.746907: W external/local_tsl/tsl/platform/cloud/google_auth_provider.cc:184] All attempts to get a Google authentication bearer token failed, returning an empty token. Retrieving token from files failed with "NOT_FOUND: Could not locate the credentials file.". Retrieving token from GCE failed with "FAILED_PRECONDITION: Error executing an HTTP request: libcurl code 6 meaning 'Couldn't resolve host name', error details: Could not resolve host: metadata.google.internal".
+2024-05-30 14:11:41.756853: I external/local_xla/xla/service/service.cc:168] XLA service 0x17ab64d0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2024-05-30 14:11:41.756907: I external/local_xla/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2024-05-30 14:11:42.514904: I tensorflow/compiler/mlir/tensorflow/utils/dump_mlir_util.cc:269] disabling MLIR crash reproducer, set env var `MLIR_CRASH_REPRODUCER_DIRECTORY` to enable.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1717096309.342461    7480 device_compiler.h:186] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
+2024-05-30 14:11:49.361040: E external/local_xla/xla/stream_executor/stream_executor_internal.h:177] SetPriority unimplemented for this stream.
+Successfully processed /home/dan/DeepLearning/mini_temporal/generations/TQE_IT/gemma-1_1-2b-it/wrong_date_context_trained/wrong_date_context_evaluated/TQE_gemma-1_1-2b-it_wrong_date_context_trained_wrong_date_context_evaluated.jsonl
+Processing Actual: /home/dan/DeepLearning/mini_temporal/clean_for_fatemeh/new_data/test.jsonl, Prediction: /home/dan/DeepLearning/mini_temporal/generations/TQE_IT/gemma-1_1-2b-it/wrong_date_context_trained/no_context_evaluated/TQE_gemma-1_1-2b-it_wrong_date_context_trained_no_context_evaluated.jsonl
+2024-05-30 14:13:00.484027: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-05-30 14:13:00.555514: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-05-30 14:13:00.555596: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-05-30 14:13:00.557947: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-05-30 14:13:00.568639: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-05-30 14:13:00.569016: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-05-30 14:13:02.184303: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+/home/dan/DeepLearning/mini_temporal/eval/eval_it.py:79: MarkupResemblesLocatorWarning: The input looks more like a filename than markup. You may want to open this file and pass the filehandle into Beautiful Soup.
+  soup = BeautifulSoup(text, "lxml")
+2024-05-30 14:13:03.891225: W tensorflow/core/common_runtime/gpu/gpu_device.cc:2256] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2024-05-30 14:13:03.967433: W external/local_tsl/tsl/platform/cloud/google_auth_provider.cc:184] All attempts to get a Google authentication bearer token failed, returning an empty token. Retrieving token from files failed with "NOT_FOUND: Could not locate the credentials file.". Retrieving token from GCE failed with "FAILED_PRECONDITION: Error executing an HTTP request: libcurl code 6 meaning 'Couldn't resolve host name', error details: Could not resolve host: metadata.google.internal".
+2024-05-30 14:13:09.877286: I external/local_xla/xla/service/service.cc:168] XLA service 0x17cdb950 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2024-05-30 14:13:09.877351: I external/local_xla/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2024-05-30 14:13:10.648284: I tensorflow/compiler/mlir/tensorflow/utils/dump_mlir_util.cc:269] disabling MLIR crash reproducer, set env var `MLIR_CRASH_REPRODUCER_DIRECTORY` to enable.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1717096397.744017    9231 device_compiler.h:186] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
+2024-05-30 14:13:17.763700: E external/local_xla/xla/stream_executor/stream_executor_internal.h:177] SetPriority unimplemented for this stream.
+Successfully processed /home/dan/DeepLearning/mini_temporal/generations/TQE_IT/gemma-1_1-2b-it/wrong_date_context_trained/no_context_evaluated/TQE_gemma-1_1-2b-it_wrong_date_context_trained_no_context_evaluated.jsonl
+Generation script ended at Thu May 30 14:14:27 CDT 2024

@@ -1,0 +1,88 @@
+Traceback (most recent call last):
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'no_context'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/dan/DeepLearning/mini_temporal/gpt_baselines/process_for_batch_jsonl_files.py", line 105, in <module>
+    main()
+  File "/home/dan/DeepLearning/mini_temporal/gpt_baselines/process_for_batch_jsonl_files.py", line 90, in main
+    'user_content':format_instruction_test(df, context)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/DeepLearning/mini_temporal/gpt_baselines/process_for_batch_jsonl_files.py", line 30, in format_instruction_test
+    for question, context in zip(df['question'], df[context]):
+                                                 ~~^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/pandas/core/frame.py", line 4090, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: 'no_context'
+finished no_context
+Data has been successfully written to random_context_prompt.jsonl
+finished random_context
+Data has been successfully written to wrong_date_context_prompt.jsonl
+finished wrong_date_context
+Data has been successfully written to relevant_context_prompt.jsonl
+finished relevant_context
+Traceback (most recent call last):
+  File "/home/dan/miniconda3/envs/BEM/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'no_context'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/dan/DeepLearning/mini_temporal/gpt_baselines/process_for_batch_jsonl_files.py", line 105, in <module>
+    main()
+  File "/home/dan/DeepLearning/mini_temporal/gpt_baselines/process_for_batch_jsonl_files.py", line 90, in main
+    'user_content':format_instruction_test(df, context)
+  File "/home/dan/DeepLearning/mini_temporal/gpt_baselines/process_for_batch_jsonl_files.py", line 30, in format_instruction_test
+    for question, context in zip(df['question'], df[context]):
+  File "/home/dan/miniconda3/envs/BEM/lib/python3.9/site-packages/pandas/core/frame.py", line 4090, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/dan/miniconda3/envs/BEM/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: 'no_context'
+finished no_context
+Data has been successfully written to random_context_prompt.jsonl
+finished random_context
+Data has been successfully written to wrong_date_context_prompt.jsonl
+finished wrong_date_context
+Data has been successfully written to relevant_context_prompt.jsonl
+finished relevant_context
+Data has been successfully written to no_context_prompt.jsonl
+finished no_context
+Data has been successfully written to random_context_prompt.jsonl
+finished random_context
+Data has been successfully written to wrong_date_context_prompt.jsonl
+finished wrong_date_context
+Data has been successfully written to relevant_context_prompt.jsonl
+finished relevant_context
+Data has been successfully written to no_context_prompt.jsonl
+finished no_context
+Data has been successfully written to random_context_prompt.jsonl
+finished random_context
+Data has been successfully written to wrong_date_context_prompt.jsonl
+finished wrong_date_context
+Data has been successfully written to relevant_context_prompt.jsonl
+finished relevant_context
+Data has been successfully written to prompts/no_context_prompt.jsonl
+finished no_context
+Data has been successfully written to prompts/random_context_prompt.jsonl
+finished random_context
+Data has been successfully written to prompts/wrong_date_context_prompt.jsonl
+finished wrong_date_context
+Data has been successfully written to prompts/relevant_context_prompt.jsonl
+finished relevant_context
